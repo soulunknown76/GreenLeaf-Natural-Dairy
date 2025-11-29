@@ -27,6 +27,11 @@ The website is built using HTML, CSS, and JavaScript and includes multiple pages
 
 ---
 
+## 🔐 Login Details (If Required)
+**Username / Email:** demo@greenleaf.com  
+**Password:** 12345  
+
+---
 ## 🚀 Deployment Link (Mandatory)
 Live Project Link:  
 https://soulunknown76.github.io/GreenLeaf-Natural-Dairy/
