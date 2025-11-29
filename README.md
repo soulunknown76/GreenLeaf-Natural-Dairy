@@ -29,8 +29,6 @@ The website is built using HTML, CSS, and JavaScript and includes multiple pages
 
 ## 🚀 Deployment Link (Mandatory)
 Live Project Link:  
-https://your-deployed-project-link.com
-
-*(Paste your actual deployment link here once ready.)*
+https://soulunknown76.github.io/GreenLeaf-Natural-Dairy/
 
 ---
