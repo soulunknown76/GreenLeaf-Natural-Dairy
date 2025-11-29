@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Milk Collection – GreenLeaf Naturals Dairy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="loadMilk()">
+
+
+<nav>
+    <h2 class="logo">GreenLeaf Naturals Dairy</h2>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="milk.html">Milk Collection</a></li>
+        <li><a href="farmers.html">Farmers</a></li>
+        <li><a href="billing.html">Billing</a></li>
+        <li><a href="login.html">Login</a></li>
+    </ul>
+</nav>
+
+<section>
+    <h2>Milk Collection Entry</h2>
+
+    <div class="card fade" style="max-width:450px;margin:auto;">
+        <input id="milkQty" placeholder="Quantity (Liters)">
+        <input id="milkFat" placeholder="FAT %">
+        <input id="milkSnf" placeholder="SNF %">
+        <button onclick="saveMilk()">Save Entry</button>
+    </div>
+
+    <h2 style="margin-top:50px;">Recorded Entries</h2>
+    <div id="milkList"></div>
+
+</section>
+
+<script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Products – GreenLeaf Naturals Dairy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="showCart()">
+
+
+<nav>
+    <h2 class="logo">GreenLeaf Naturals Dairy</h2>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="milk.html">Milk Collection</a></li>
+        <li><a href="farmers.html">Farmers</a></li>
+        <li><a href="billing.html">Billing</a></li>
+        <li><a href="login.html">Login</a></li>
+    </ul>
+</nav>
+
+<section>
+    <h2 class="page-title">Our Organic Dairy Products</h2>
+
+    <div class="grid3">
+
+        <div class="product-card fade">
+            <img src="milk.png">
+            <h3>Organic Milk</h3>
+            <p>₹45 / Litre</p>
+            <button onclick="addToCart('Organic Milk',45)">Add to Cart</button>
+        </div>
+
+        <div class="product-card fade">
+            <img src="curd.png">
+            <h3>Natural Curd</h3>
+            <p>₹50</p>
+            <button onclick="addToCart('Natural Curd',50)">Add to Cart</button>
+        </div>
+
+        <div class="product-card fade">
+            <img src="cheese.png">
+            <h3>Organic Cheese</h3>
+            <p>₹120</p>
+            <button onclick="addToCart('Organic Cheese',120)">Add to Cart</button>
+        </div>
+
+    </div>
+
+    <h2 class="page-title" style="margin-top:50px;">Your Cart</h2>
+    <div id="cartBox"></div>
+
+</section>
+
+<script src="main.js"></script>
+</body>
+</html>
